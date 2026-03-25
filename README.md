@@ -6,7 +6,7 @@
 
   
 
-** ¿Cuántas líneas de código habéis ahorrado al usar grupos? **
+**¿Cuántas líneas de código habéis ahorrado al usar grupos?**
 
   
 
@@ -22,7 +22,7 @@ Esto tendria sentido si, por ejemplo componentes de hardware se repeterian mucha
 
   
 
-** ¿Qué error os da VS Code si intentáis poner dos servidores con el mismo ID? **
+**¿Qué error os da VS Code si intentáis poner dos servidores con el mismo ID?**
 
   
 
