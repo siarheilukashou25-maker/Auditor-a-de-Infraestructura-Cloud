@@ -3,7 +3,7 @@
   ========================================================
   Módulo: LMSGI - CFGS DAM/DAW
   Autor: Willman Acosta Lugo
-  Descripción: Esquema XSD con restricciones RegEx para validar catalogo.xml
+  Descripción: Esquema XSD con restricciones RegEx para validar CatalogoCloud.xml
   ========================================================
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">

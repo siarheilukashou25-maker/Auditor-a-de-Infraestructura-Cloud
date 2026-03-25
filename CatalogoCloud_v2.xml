@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="CatalogoCloud.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-model href="CatalogoCloud_v2.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <!-- 
   ========================================================
   Módulo: LMSGI - CFGS DAM/DAW
   Autor: Willman Acosta Lugo
   Reto Práctico: Extracción Precisa con XPath
-  Archivo: CatalogoCloud.xml (Context Item para XPath Notebook)
+  Archivo: CatalogoCloud_v2.xml (Context Item para XPath Notebook)
   ========================================================
 -->
 <catalogo_cloud empresa="TechNova Cloud">
@@ -29,6 +29,14 @@
                     <servicio puerto="443">Nginx HTTPS</servicio>
                 </servicios>
             </software>
+            <red>
+                <ip_fija>192.168.0.1</ip_fija>
+            </red>
+            <auditoria>
+                <fecha_revision>20/03/2026</fecha_revision>
+                <tecnico>Juan Pérez López</tecnico>
+                <nota>Revisión completada sin incidencias</nota>
+            </auditoria>
         </servidor>
 
         <servidor id="srv-db-01" rack="A2" estado="mantenimiento">
@@ -45,6 +53,14 @@
                     <servicio puerto="5432">PostgreSQL</servicio>
                 </servicios>
             </software>
+            <red>
+                <dhcp>si</dhcp>
+            </red>
+            <auditoria>
+                <fecha_revision>18/03/2026</fecha_revision>
+                <tecnico>María García Ruiz</tecnico>
+                <nota>Se detectaron fallos menores en el sistema</nota>
+            </auditoria>
         </servidor>
 
     </centro_datos>
@@ -69,6 +85,14 @@
                     <servicio puerto="8888">Jupyter Hub</servicio>
                 </servicios>
             </software>
+            <red>
+                <ip_fija>192.168.0.1</ip_fija>
+            </red>
+            <auditoria>
+                <fecha_revision>15/03/2026</fecha_revision>
+                <tecnico>Carlos Fernández Díaz</tecnico>
+                <nota>Mantenimiento preventivo realizado correctamente</nota>
+            </auditoria>
         </servidor>
 
         <servidor id="srv-backup-01" rack="B2" estado="apagado">
@@ -87,6 +111,14 @@
                     <servicio puerto="873">Rsync</servicio>
                 </servicios>
             </software>
+            <red>
+                <dhcp>no</dhcp>
+            </red>
+            <auditoria>
+                <fecha_revision>10/03/2026</fecha_revision>
+                <tecnico>Ana Martínez Sánchez</tecnico>
+                <nota>Pendiente de revisión adicional</nota>
+            </auditoria>
         </servidor>
 
     </centro_datos>
