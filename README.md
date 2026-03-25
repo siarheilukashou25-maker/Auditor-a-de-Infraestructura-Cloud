@@ -10,10 +10,9 @@
 
   
 
-No hemos ahorrado casi nada. Para este caso concreto al reves hemos anadido mas codigo para poder utilizar grupo. Por ejemplo para solo atributos del servidoe
-
-hemos obtenido +3 lineas de codigo en comparacion de version antigua. Con los componentes del hardware igual +- 4 lines de codigo adicionales.
-
+No hemos ahorrado casi nada. Para este caso concreto al reves hemos anadido mas codigo para poder utilizar grupo. Por ejemplo para solo atributos del servidor
+hemos obtenido +3 lineas de codigo en comparacion de version antigua. 
+Con los componentes del hardware igual +- 4 lines de codigo adicionales.
 Esto tendria sentido si, por ejemplo componentes de hardware se repeterian muchas veces en otras partes del XSD.
 
   
@@ -30,8 +29,9 @@ Esto tendria sentido si, por ejemplo componentes de hardware se repeterian mucha
 
   
 
-Basicamente nos dice que estamos intentando duplicar valores unicos, cuando hemos puesto restricion
+Basicamente nos dice que estamos intentando duplicar valores unicos, cuando hemos puesto restricion.
 
+> P.S. Para que el VSCode no me da errores he anadido al XML  <red> y <auditoria> y los datos de las etiquetas lo he rellenado con el ChatGPT
   
 
 #
