@@ -31,7 +31,7 @@ Esto tendria sentido si, por ejemplo componentes de hardware se repeterian mucha
 
 Basicamente nos dice que estamos intentando duplicar valores unicos, cuando hemos puesto restricion.
 
-> P.S. Para que el VSCode no me da errores he anadido al XML  <red> y <auditoria> y los datos de las etiquetas lo he rellenado con el ChatGPT
+> P.S. Para que el VSCode no me da errores he anadido al XML  'red' y 'auditoria' y los datos de las etiquetas lo he rellenado con el ChatGPT
   
 
 #
